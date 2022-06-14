@@ -121,6 +121,9 @@ dependencies {
     implementation "androidx.compose.ui:ui-tooling-preview:$compose_version"
     implementation 'androidx.activity:activity-compose:1.3.1'
 
+    //Coil (Image Uploading)
+    implementation 'com.google.accompanist:accompanist-coil:0.12.0'
+
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

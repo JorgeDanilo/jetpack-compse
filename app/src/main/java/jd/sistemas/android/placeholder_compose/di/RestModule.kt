@@ -14,7 +14,7 @@ import javax.inject.Singleton
 object RestModule {
 
     @Provides
-    fun provideBaseUrl() = "https://jsonplaceholder.typicode.com/"
+    fun provideBaseUrl() = "https://reqres.in/api/"
 
     @Singleton
     @Provides
